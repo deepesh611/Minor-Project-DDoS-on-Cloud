@@ -16,31 +16,54 @@ This project focuses on developing a cloud-based DDoS (Distributed Denial of Ser
 3. **Real-Time Decision Making**: The system employs online learning models to adapt to new traffic patterns in real-time.
 4. **Feedback Loop**: Detected attacks are labeled and used to retrain the model, ensuring the system keeps evolving.
 
-## 📁 Project Structure
-```bash
-.
-├── datasets/               # 📂 Traffic datasets for training and testing
-├── pretrained_models/      # 🧠 Pretrained and incremental learning models
-├── src/                    # 📜 Source code for data processing, model training, and prediction
-│   ├── preprocessing/      # 🧹 Data preprocessing scripts
-│   ├── models/             # 🔍 ML/DL models for DDoS detection
-│   └── utils/              # ⚙️ Helper functions and utilities
-├── notebooks/              # 📝 Jupyter notebooks for data analysis and model development
-├── results/                # 📊 Output results, logs, and evaluation metrics
-└── README.md          
-```
+
+
+
+[//]: # (## 📁 Project Structure)
+
+[//]: # (```bash)
+
+[//]: # (.)
+
+[//]: # (├── datasets/               # 📂 Traffic datasets for training and testing)
+
+[//]: # (├── pretrained_models/      # 🧠 Pretrained and incremental learning models)
+
+[//]: # (├── src/                    # 📜 Source code for data processing, model training, and prediction)
+
+[//]: # (│   ├── preprocessing/      # 🧹 Data preprocessing scripts)
+
+[//]: # (│   ├── models/             # 🔍 ML/DL models for DDoS detection)
+
+[//]: # (│   └── utils/              # ⚙️ Helper functions and utilities)
+
+[//]: # (├── notebooks/              # 📝 Jupyter notebooks for data analysis and model development)
+
+[//]: # (├── results/                # 📊 Output results, logs, and evaluation metrics)
+
+[//]: # (└── README.md          )
+
+[//]: # (```)
+
+
+
 
 ## ⚙️ Setup & Installation
 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/ddos-prevention-cloud.git
-cd Minor-Project-DDoS-on-Cloud
-```
+    ```bash
+    git clone https://github.com/deepesh611/Minor-Project-DDoS-on-Cloud.git
+    cd Minor-Project-DDoS-on-Cloud
+    ```
 
-2. Run Setup: Ensure you have Python 3.x installed, then open powershell and run:
-```bash
-.\setup.sh
-```
+2. Run Setup: Ensure you have Python 3.11 or 3.12 installed, then open powershell and run:
+    ```bash
+    .\setup.sh
+    ```
+
+3. To Catchup to the latest changes, open your `Powershell` and run the `./Catch-Up.ps1` file
+    ```bash
+    ./Catch-Up.ps1
+     ```
 
 <!-- ## 🚀 Usage
 1. Preprocess Data: To preprocess traffic data:
