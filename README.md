@@ -77,7 +77,7 @@ Thanks goes to these wonderful people:
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://deepesh-patil.vercel.app/"><img src="https://avatars.githubusercontent.com/u/123585104?v=4?s=100" width="100px;" alt="Deepesh Patil"/><br /><sub><b>Deepesh Patil</b></sub></a><br /><a href="https://github.com/deepesh611/Minor-Project-DDoS-on-Cloud/commits?author=deepesh611" title="Code">💻</a> <a href="https://github.com/deepesh611/Minor-Project-DDoS-on-Cloud/commits?author=deepesh611" title="Documentation">📖</a> <a href="#research-deepesh611" title="Research">🔬</a> <a href="#ideas-deepesh611" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://deepesh-patil.vercel.app/"><img src="https://avatars.githubusercontent.com/u/123585104?v=4?s=100" width="100px;" alt="Deepesh Patil"/><br /><sub><b>Deepesh Patil</b></sub></a><br /><a href="https://github.com/deepesh611/Minor-Project-DDoS-on-Cloud/commits?author=deepesh611" title="Code">💻</a> <a href="https://github.com/deepesh611/Minor-Project-DDoS-on-Cloud/commits?author=deepesh611" title="Documentation">📖</a> <a href="#research-deepesh611" title="Research">🔬</a> <a href="#ideas-deepesh611" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-deepesh611" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
