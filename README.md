@@ -65,9 +65,7 @@ python src/models/run_realtime_detection.py
 - 🕸️ Advanced Honeypots: Use more sophisticated honeypots for detailed analysis of attackers' behavior.
 - 🛡️ Attack Recovery: Add an automated recovery process to mitigate damage and recover from attacks faster.
 
-## 🤝 Contributors
-
-## Contributors ✨
+## 🤝 Contributors ✨
 
 Thanks goes to these wonderful people:
 
