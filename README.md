@@ -37,9 +37,9 @@ git clone https://github.com/yourusername/ddos-prevention-cloud.git
 cd Minor-Project-DDoS-on-Cloud
 ```
 
-2. Run Setup: Ensure you have Python 3.x installed, then run:
+2. Run Setup: Ensure you have Python 3.x installed, then open powershell and run:
 ```bash
-bash ./setup.sh
+.\setup.sh
 ```
 
 <!-- ## 🚀 Usage
