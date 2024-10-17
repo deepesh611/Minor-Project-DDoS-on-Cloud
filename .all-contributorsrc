@@ -9,7 +9,17 @@
   "imageSize": 100,
   "commit": true,
   "commitConvention": "gitmoji",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "deepesh611",
+      "name": "Deepesh Patil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/123585104?v=4",
+      "profile": "https://deepesh-patil.vercel.app/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
   "contributorsPerLine": 7,
   "linkToUsage": false
 }
