@@ -5,6 +5,7 @@
   "Resources" : {
     "mdpi.com" : "https://www.mdpi.com/2076-3417/13/17/9937",
     "nature.com" : "https://www.nature.com/articles/s41598-024-67984-w",
-    "https://www.labellerr.com/blog" : "https://www.labellerr.com/blog/ddos-attack-detection/#:~:text=Machine%20learning%20algorithms%20play%20a,and%20mitigation%20of%20DDoS%20attacks."
+    "https://www.labellerr.com/blog" : "https://www.labellerr.com/blog/ddos-attack-detection/#:~:text=Machine%20learning%20algorithms%20play%20a,and%20mitigation%20of%20DDoS%20attacks.",
+    "Rate Limiting with Redis (dev.to)" : "https://dev.to/reeshee/tackle-ddos-with-redis-rate-limiting-3n1i"
   }
 }
