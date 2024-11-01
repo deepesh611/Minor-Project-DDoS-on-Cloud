@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Log file path
-LOG_FILE="$HOME/Desktop/Tanishq/scale_down.log"
+LOG_FILE="$HOME/path/to/scale_down.log"
 
 # Function to log messages
 log_message() {
