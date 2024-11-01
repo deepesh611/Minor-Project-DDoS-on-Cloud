@@ -29,7 +29,7 @@ fi
 RATE_LIMIT="1mbit"           # Max rate allowed (adjust based on your needs)
 BURST_SIZE="32k"             # Burst size
 PACKET_THRESHOLD=10          # Threshold for packet count per IP
-LOG_DIR="$HOME/Desktop/Tanishq/ddos_monitor" # Directory to store logs
+LOG_DIR="$HOME/path/to/ddos_monitor" # Directory to store logs
 HONEYPOT_DIR="$LOG_DIR/honeypot_data"  # Directory to store honeypot data
 AUTO_SCALE_THRESHOLD=1000    # Traffic threshold to trigger auto-scaling (in KB)
 SCALE_UP_COMMAND="./scale_up.sh"  # Command to scale up resources
