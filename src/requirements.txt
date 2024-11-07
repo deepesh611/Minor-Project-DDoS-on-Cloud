@@ -1,9 +1,0 @@
-# ───────────────────────────────
-#       PROJECT DEPENDENCIES
-# ───────────────────────────────
-
-numpy
-pandas
-seaborn
-matplotlib
-scikit-learn

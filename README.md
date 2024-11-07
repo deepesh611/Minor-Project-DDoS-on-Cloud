@@ -19,37 +19,8 @@ This project focuses on developing a cloud-based DDoS (Distributed Denial of Ser
 
 
 
-[//]: # (## 📁 Project Structure)
-
-[//]: # (```bash)
-
-[//]: # (.)
-
-[//]: # (├── datasets/               # 📂 Traffic datasets for training and testing)
-
-[//]: # (├── pretrained_models/      # 🧠 Pretrained and incremental learning models)
-
-[//]: # (├── src/                    # 📜 Source code for data processing, model training, and prediction)
-
-[//]: # (│   ├── preprocessing/      # 🧹 Data preprocessing scripts)
-
-[//]: # (│   ├── models/             # 🔍 ML/DL models for DDoS detection)
-
-[//]: # (│   └── utils/              # ⚙️ Helper functions and utilities)
-
-[//]: # (├── notebooks/              # 📝 Jupyter notebooks for data analysis and model development)
-
-[//]: # (├── results/                # 📊 Output results, logs, and evaluation metrics)
-
-[//]: # (└── README.md          )
-
-[//]: # (```)
-
-
-
-
 ## ⚙️ Setup & Installation
-1. Clone the Repository
+1. Clone the Repository 
     ```bash
     git clone https://github.com/deepesh611/Minor-Project-DDoS-on-Cloud.git
     cd Minor-Project-DDoS-on-Cloud
@@ -60,10 +31,6 @@ This project focuses on developing a cloud-based DDoS (Distributed Denial of Ser
     .\setup.sh
     ```
 
-3. To Catchup to the latest changes, open your `Powershell` and run the `./Catch-Up.ps1` file
-    ```bash
-    ./Catch-Up.ps1
-     ```
 
 <!-- ## 🚀 Usage
 1. Preprocess Data: To preprocess traffic data:
@@ -71,23 +38,21 @@ This project focuses on developing a cloud-based DDoS (Distributed Denial of Ser
 python src/preprocessing/preprocess.py
 ```
 
-2. Train the Model: To train the ML/DL model for DDoS detection:
+1. Train the Model: To train the ML/DL model for DDoS detection:
 ```bash
 python src/models/train_model.py
 ```
 
-3. Run Real-time Detection: For real-time DDoS detection using streaming data:
+1. Run Real-time Detection: For real-time DDoS detection using streaming data:
 ```bash
 python src/models/run_realtime_detection.py
 ```
-4. Analyze Results: You can view the logs and performance metrics in the `results` folder. -->
+1. Analyze Results: You can view the logs and performance metrics in the `results` folder. -->
 
 
 ## 🔮 Future Enhancements
 - ☁️ Cloud Auto-scaling: Implement an automated cloud scaling mechanism based on detected traffic loads.
 - 🕸️ Advanced Honeypots: Use more sophisticated honeypots for detailed analysis of attackers' behavior.
-- 🛡️ Attack Recovery: Add an automated recovery process to mitigate damage and recover from attacks faster.
-
 ## 🤝 Contributors ✨
 
 Thanks goes to these wonderful people:
