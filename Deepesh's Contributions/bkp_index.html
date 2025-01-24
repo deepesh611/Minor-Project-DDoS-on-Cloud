@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backup Server</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #121212;
+            color: #f5f5f5;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            padding: 30px;
+            border: 2px solid #03dac5;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(3, 218, 197, 0.7);
+            background: linear-gradient(145deg, #1e1e1e, #272727);
+            animation: zoomIn 1.5s ease-in-out;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #03dac5;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 1.2em;
+            color: #b0bec5;
+            margin-top: 10px;
+        }
+        @keyframes zoomIn {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Backup Server Online</h1>
+        <p>This is the <strong>Backup Server</strong> (RPi 2).</p>
+        <p>Standing by to take over when needed.</p>
+    </div>
+</body>
+</html>

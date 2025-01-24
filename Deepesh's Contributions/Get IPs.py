@@ -3,7 +3,7 @@ import platform
 import threading
 
 # Define the base IP of the Class C network
-base_ip = "192.168.182"
+base_ip = "192.168.237"
 
 # List to store reachable IPs
 reachable_ips = []

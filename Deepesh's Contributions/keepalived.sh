@@ -34,7 +34,7 @@ vrrp_instance VI_1 {
     advert_int 1                     # Advertisement interval
     authentication {
         auth_type PASS
-        auth_pass YOUR_SECRET_PASSWORD  # Password for authentication
+        auth_pass 1234  # Password for authentication
     }
     virtual_ipaddress {
         192.168.1.100                  # Virtual IP address
@@ -43,20 +43,20 @@ vrrp_instance VI_1 {
 EOL
     elif [ "$ROLE" == "backup" ]; then
         cat <<EOL > $CONFIG_FILE
-vrrp_instance VI_1 {
-    state BACKUP
-    interface eth0                   # Network interface
-    virtual_router_id 51             # Must match the master
-    priority 100                     # Lower priority for backup
-    advert_int 1                     # Advertisement interval
-    authentication {
-        auth_type PASS
-        auth_pass YOUR_SECRET_PASSWORD  # Same password as the master
+    v   rrp_instance VI_1 {
+        state BACKUP
+        interface eth0                   # Network interface
+        virtual_router_id 51             # Must match the master
+        priority 100                     # Lower priority for backup
+        advert_int 1                     # Advertisement interval
+        authentication {
+            auth_type PASS
+            auth_pass 1234  # Same password as the master
+        }
+        virtual_ipaddress {
+            192.168.1.100                  # Virtual IP address (same as master)
+        }
     }
-    virtual_ipaddress {
-        192.168.1.100                  # Virtual IP address (same as master)
-    }
-}
 EOL
     else
         echo "Invalid role specified. Use 'master' or 'backup'."
