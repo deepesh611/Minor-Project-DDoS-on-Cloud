@@ -160,12 +160,21 @@ For future work, several directions can be explored to enhance the system's capa
 
 ### REFERENCES
 [cite_start][1] Ajeetha G, Madhu Priya G, "Machine Learning Based DDoS Attack Detection," 2019 Innovations in Power and Advanced Computing Technology (i-PACT), 2019, IEEE. [cite: 641]
+
 [2] A. Sahi, D. Lai, Y. Li and M. Diykh, "An Efficient DDoS TCP Flood Attack Detection and Prevention System in a Cloud Environment," in IEEE Access, vol. [cite_start]5, pp. 6036-6048, 2017, doi: 10.1109/ACCESS.2017.2688460. [cite: 642, 643]
+
 [3] T. V. Phan and M. Park, "Efficient Distributed Denial-of-Service Attack Defense in SDN-Based Cloud," in IEEE Access, vol. [cite_start]7, pp. 18701-18714, 2019, doi: 10.1109/ACCESS.2019.2896783. [cite: 644, 645]
+
 [4] D. Yin, L. Zhang and K. Yang, "A DDoS Attack Detection and Mitigation With Software-Defined Internet of Things Framework," in IEEE Access, vol. [cite_start]6, pp. 24694-24705, 2018, doi: 10.1109/ACCESS.2018.2831284. [cite: 646, 647]
+
 [cite_start][5] M. Zuñiga-Prieto, E. Insfran and S. Abrahão, "Architecture Description Language for Incremental Integration of Cloud Services Architectures," 2016 IEEE 10th International Symposium on the Maintenance and Evolution of Service-Oriented and Cloud-Based Environments (MESOCA), Raleigh, NC, USA, 2016, pp. 16-23, doi: 10.1109/MESOCA.2016.10. [cite: 648]
+
 [cite_start][6] M. H. Rohit, S. M. Fahim and A. H. A. Khan, "Mitigating and Detecting DDoS attack on IoT Environment," 2019 IEEE International Conference on Robotics, Automation, Artificial-intelligence and Internet-of-Things (RAAICON), Dhaka, Bangladesh, 2019, pp. 5-8, doi: 10.1109/RAAICON48939.2019.5. [cite: 649]
+
 [cite_start][7] W. H. A. Muragaa, "A hybrid scheme for detecting and preventing single packet Low-rate DDoS and flooding DDoS attacks in SDN," 2023 IEEE 3rd International Maghreb Meeting of the Conference on Sciences and Techniques of Automatic Control and Computer Engineering (MI-STA), Benghazi, Libya, 2023, pp. 707-712, doi: 10.1109/MI-STA57575.2023.10169712. [cite: 650]
+
 [cite_start][8] J. Li et al., "Toward Adaptive DDoS-Filtering Rule Generation," 2023 IEEE Conference on Communications and Network Security (CNS), Orlando, FL, USA, 2023, pp. 1-9, doi: 10.1109/CNS59707.2023.10288699. [cite: 651]
+
 [cite_start][9] Power and Energy-efficient VM scheduling in OpenStack Cloud Through Migration and Consolidation using Wake-on-LAN - Krishan Kumar, Kunal Patange, Pushkar Pete, Manjiri Wankhade, Arpitrama Chatterjee & Manish Kurhekar. [cite: 652]
+
 [cite_start][10] M. Popa and T. Slavici, "Embedded server with Wake on LAN function," IEEE EUROCON 2009, St. Petersburg, Russia, 2009, pp. 365-370, doi: 10.1109/EURCON.2009.5167657. [cite: 653, 654]

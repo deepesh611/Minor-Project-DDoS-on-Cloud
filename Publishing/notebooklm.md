@@ -23,6 +23,7 @@ This paper addresses these gaps by proposing a robust, adaptive, and autonomous 
 
 ##### II. RELATED WORK
 The body of research on DDoS mitigation is extensive. Previous works can be broadly categorized into several key areas, from analyses of attack evolution to the application of intelligent detection models.
+
 **A. EVOLUTION AND IMPACT OF DDOS ATTACKS** DDoS attacks have evolved significantly in complexity, frequency, and scale, posing a persistent threat to cloud infrastructure [1]. The shift from simple volumetric attacks to sophisticated, multi-vector assaults complicates detection and mitigation. Attackers leverage cloud vulnerabilities, botnets, and spoofing techniques to disrupt services. Research by Phan and Park (2019) demonstrated that a successful DDoS attack on a cloud system severely degrades service reliability and can cause cascading failures across interconnected resources, highlighting the need for adaptive, real-time defense [3].
 
 **B. TRADITIONAL MITIGATION TECHNIQUES AND THEIR LIMITATIONS** Conventional DDoS mitigation techniques, including IP blacklisting and rate limiting, have been widely deployed but often fail to distinguish legitimate traffic from malicious traffic, particularly in large-scale cloud environments [2]. Signature-based detection systems are effective against known attack patterns but struggle with novel or polymorphic threats. Traditional methods are insufficient for modern cloud systems, as they cannot adapt to new attack types [7]. This has driven a shift towards dynamic, ML-based approaches that analyze traffic patterns in real-time.
@@ -86,9 +87,11 @@ The overall architecture, depicted in Figure 1, consists of a load balancer, an 
 
 ##### V. RESULTS AND DISCUSSION
 The performance of the proposed system was evaluated based on the accuracy and false positive rates of the different models. The results demonstrate the effectiveness of the hybrid and incremental learning approach.
+
 **A. MODEL PERFORMANCE EVALUATION** The final performance metrics for each model are summarized in TABLE I. The Incremental Random Forest model significantly outperformed the others, achieving the **highest accuracy of 98.16%** and the **lowest FPR of 2.28%** (Internal Data). The standard Random Forest model also performed well, with an accuracy of 96.89% and an FPR of 4.56%. In contrast, the Deep Learning model exhibited poor performance, with an accuracy of only 72.61% and a very high FPR of 40.49%, making it unsuitable for this application in its current configuration. The high accuracy and low FPR of the Incremental RF validate its suitability for a dynamic defense system where both precision and adaptability are crucial.
 
 **TABLE I.** FINAL PERFORMANCE METRICS OF CLASSIFICATION MODELS
+
 | Model | Accuracy | False Positive Rate (FPR) |
 | :--- | :--- | :--- |
 | Random Forest | 0.9689 | 0.0456 |
@@ -101,10 +104,13 @@ The performance of the proposed system was evaluated based on the accuracy and f
 **FIGURE 3.** False Positive Rates Comparison over multiple updates (Placeholder Image)
 
 **C. SYSTEM EFFECTIVENESS AND FAILOVER VALIDATION** The overall effectiveness of the system refinements is highlighted in Figure 4, which compares the detection accuracy of the previous model configuration with the improved model. The enhanced model shows a marked improvement, underscoring the value of the incremental adjustments and multi-layered architecture.
+
 **FIGURE 4.** Detection Accuracy: Previous vs. Improved Model (Placeholder Image)
 
 The system's failover mechanism was also validated. Figure 5 shows the web service running on the main server during normal operation. Figure 6 shows the default Apache page served by the backup server after it has taken over due to the main server being compromised by an attack, confirming the seamless transition and continuous service availability.
+
 **FIGURE 5.** Service when the main server is active (Placeholder Image)
+
 **FIGURE 6.** Service when the main server is compromised, and the backup server has taken over (Placeholder Image)
 
 ##### VI. CONCLUSION AND FUTURE WORK
@@ -121,11 +127,18 @@ For future work, several directions can be explored to enhance the system's capa
 
 ##### REFERENCES
 [1] Ajeetha G, Madhu Priya G, "Machine Learning Based DDoS Attack Detection," 2019 Innovations in Power and Advanced Computing Technology (i-PACT), 2019, IEEE.
+
 [2] A. Sahi, D. Lai, Y. Li and M. Diykh, "An Efficient DDoS TCP Flood Attack Detection and Prevention System in a Cloud Environment," in IEEE Access, vol. 5, pp. 6036-6048, 2017.
+
 [3] T. V. Phan and M. Park, "Efficient Distributed Denial-of-Service Attack Defense in SDN-Based Cloud," in IEEE Access, vol. 7, pp. 18701-18714, 2019.
+
 [7] D. Yin, L. Zhang and K. Yang, "A DDoS Attack Detection and Mitigation With Software-Defined Internet of Things Framework," in IEEE Access, vol. 6, pp. 24694-24705, 2018.
+
 [4] M. Zuñiga-Prieto, E. Insfran and S. Abrahão, "Architecture Description Language for Incremental Integration of Cloud Services Architectures," 2016 IEEE 10th International Symposium on the Maintenance and Evolution of Service-Oriented and Cloud-Based Environments (MESOCA), Raleigh, NC, USA, 2016, pp. 16-23.
+
 [5] M. H. Rohit, S. M. Fahim and A. H. A. Khan, "Mitigating and Detecting DDoS attack on IoT Environment," 2019 IEEE International Conference on Robotics, Automation, Artificial-intelligence and Internet-of-Things (RAAICON), Dhaka, Bangladesh, 2019, pp. 5-8.
+
 [6] W. H. A. Muragaa, "A hybrid scheme for detecting and preventing single packet Low-rate DDoS and flooding DDoS attacks in SDN," 2023 IEEE 3rd International Maghreb Meeting of the Conference on Sciences and Techniques of Automatic Control and Computer Engineering (MI-STA), Benghazi, Libya, 2023, pp. 707-712.
 [10] J. Li et al., "Toward Adaptive DDoS-Filtering Rule Generation," 2023 IEEE Conference on Communications and Network Security (CNS), Orlando, FL, USA, 2023, pp. 1-9.
+
 [8] K. Kumar, K. Patange, P. Pete, M. Wankhade, A. Chatterjee & M. Kurhekar, "Power and Energy-efficient VM scheduling in OpenStack Cloud Through Migration and Consolidation using Wake-on-LAN".
