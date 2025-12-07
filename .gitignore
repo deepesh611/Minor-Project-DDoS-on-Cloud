@@ -3,7 +3,5 @@ venv
 .vscode
 src/__pycache__
 Saksham's Resources/.ipynb_checkpoints
-claude.md
-gemini.md
-notebooklm.md
-notebooklm.txt
+
+trial
